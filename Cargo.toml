@@ -1,0 +1,23 @@
+[package]
+name = "drawing_robot"
+version = "0.1.0"
+authors = ["invis87@gmail.com"]
+edition = "2018"
+exclude = ["examples/*"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+svgtypes = "0.5.0"
+
+# deps to examples drawing
+skulpin = "0.4.0"
+winit = "0.20.0-alpha4"
+raw-window-handle = "0.3"
+ash = "0.29"
+skia-safe = { version = "0.21", features = ["vulkan"] }
+log="0.4"
+
+[[example]]
+name = "draw"
+path = "examples/draw/main.rs"
