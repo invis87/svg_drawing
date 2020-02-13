@@ -24,6 +24,10 @@ ash = "0.29"
 skia-safe = { version = "0.21", features = ["vulkan"] }
 log="0.4"
 
+[lib]
+name = "svg_to_lines"
+path = "src/lib.rs"
+
 [[example]]
 name = "draw"
 path = "examples/draw/main.rs"
