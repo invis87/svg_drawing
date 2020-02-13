@@ -1,5 +1,5 @@
 [package]
-name = "drawing_robot"
+name = "svg_to_lines"
 version = "0.1.0"
 authors = ["invis87@gmail.com"]
 edition = "2018"
