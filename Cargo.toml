@@ -5,6 +5,12 @@ authors = ["invis87@gmail.com"]
 edition = "2018"
 exclude = ["examples/*"]
 
+license = "MIT"
+description = "converts svg string to list of lines"
+homepage = "https://github.com/invis87/svg_drawing"
+documentation = ""
+repository = "https://github.com/invis87/svg_drawing"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
